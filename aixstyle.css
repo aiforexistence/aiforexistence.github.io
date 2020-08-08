@@ -1,12 +1,12 @@
 *{
 marigin:0;
 padding:0;
-font-family: sans-serif;
+font-family:"Trebuchet MS" ;
 }
 .container{
     max-width:100%;
     height: 100%;
-    background-size:  contain;
+    background-size: contain;
     background: url("aixbrainson.png") no-repeat center fixed;
     background-position:50% 50%;
     background-color:#04217e;
@@ -40,6 +40,8 @@ cursor: pointer;
 .join-btn span {
     display:block;
     padding:8px 22px;
+    transition: all .4s ease;
+      
 }
 .banner{
     width: 80%;
@@ -68,3 +70,38 @@ cursor: pointer;
     line-height: 25px;
     color:white;
    }
+   .modal {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+    &--hidden {
+      display: none;
+    }
+    &__contents {
+      background-color: #fff;
+      padding: 2rem 4rem;
+      input[type=email] {
+        width: 100%;
+        padding: .5rem;
+      }
+      #submit{
+        background-color: $primary;
+        color: #fff;
+        transition: all .3s ease;
+        &:hover {
+          background-color: $primary-darker;
+        }
+      }
+    }
+    &__close-bar {
+      cursor: pointer;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: -2rem;
+      margin-top: -1rem;
+    }
+  }
