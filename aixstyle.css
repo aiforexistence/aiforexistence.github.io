@@ -25,8 +25,7 @@ cursor: pointer;
     color: #f2b836 !important;
 }
 .button{
-    background-color: blue;
-	border: 2px solid white;
+    background-color: #426bff;
 	border-radius: 30px;
 	text-decoration: none;
 	padding: 10px 28px;
@@ -82,11 +81,18 @@ cursor: pointer;
     line-height: 25px;
     color:white;
    }
+.text-popup{
+    text-shadow: 1px 1px 2px rgb(105, 105, 105);
+    font-size:20px;
+    margin: 40px 40px 40px;
+    line-height: 25px;
+    color:white;
+}
 .bg-modal{
     width: 100%;
     height: 100%;
     background-color: black;
-    background-color:rgba(0,0,0,0.7);
+    background-color:rgba(0,0,0,.7);
     position: absolute;
     top:0;
     display: none;
@@ -97,16 +103,22 @@ cursor: pointer;
 .modal-content{
     width:500px ;
     height: 300px;
-   background-color: blanchedalmond;
+   background-color:#ca8b02;
    opacity: 1;
-   border-radius:4px ;
+   border-radius:35px ;
    text-align: center;
    position: relative;
+   
 }
-input{
-    width: 50%;
-    display:block;
-    margin: 15px auto;
+.input{
+    
+     margin: 30px auto;
+     display: block;
+     box-sizing: border-box;
+     width: 50%;
+     padding: 8px;
+     
+     
 }
 .close{
     position: absolute;
@@ -115,4 +127,21 @@ input{
     font-size: 42px;
     transform: rotate(45deg);
     cursor: pointer;
+    color:rgb(35, 35, 35);
+}
+.close:hover {
+    transition:.5s;
+    color: rgb(91, 91, 91) ;
+}
+.button:hover{
+    transition: .4s;
+    color:#ca8b02;
+}
+.join-btn:hover{
+    transition: .2s;
+    color:#f2b836;
+}
+.radial-gradient:hover{
+    transition: .5s;
+    color:#f2b836;   
 }
