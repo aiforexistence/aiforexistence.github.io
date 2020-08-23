@@ -1,0 +1,247 @@
+*{
+margin:0;
+padding:0;
+font-family:"Trebuchet MS" ;
+
+}/*home page*/
+.container{
+    width:100%;
+    height: 100%;
+    background-size: contain;
+    background: url("aixbrainson.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 50%;
+    background-color:#04217e;
+    position: relative;
+}
+.menu{
+    background-color:white ;
+    position: fixed;
+    width: 100%;
+    height: 73px;
+    
+}
+.menu ul{
+    display: inline-flex;
+    margin: 20px;
+}
+.menu ul li{
+list-style: none;
+margin:0 20px;
+color:black;
+cursor: pointer;
+}
+.home span{
+    display: block;
+    color: black;
+
+}
+.blog span{
+    display: block;
+    color: black;
+
+}
+
+/*popup*/
+.button{
+    background-color: #426bff;
+	border-radius: 30px;
+	text-decoration: none;
+	padding: 10px 28px;
+	color: white;
+	margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.join-btn{
+    top: 10px;
+    right:80px;
+    position: absolute;
+    text-decoration: none;
+    color:black;
+    border: 1.9px solid black;
+    border-radius: 20px;
+    background-image:  linear-gradient(#1e42c4,#426bff),
+  
+    
+}
+.join-btn span {
+    display:block;
+    padding:8px 22px;
+    transition: all .4s ease;
+      
+}
+/*home page lettering*/
+.banner{
+    width: 80%;
+    height:70%;
+    top: 25%;
+    left:130px;
+    position: absolute;;
+    color:white;
+
+}
+.app-text{
+    width:50%;
+    float:left;
+    
+}  
+.app-text h1{
+    width:640px;
+    font-size: 500%;
+    position: relative;
+    margin-left:30px;
+
+}
+.app-text p{
+    width: 650px;
+    font-size:20px;
+    margin: 40px 40px 40px;
+    line-height: 25px;
+    color:white;
+   }
+   /*popup text*/
+.text-popup{
+    text-shadow: 1px 1px 2px rgb(105, 105, 105);
+    font-size:20px;
+    margin: 40px 40px 40px;
+    line-height: 25px;
+    color:white;
+}
+.bg-modal{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-color:rgba(0,0,0,.7);
+    position: absolute;
+    top:0;
+    display: none;
+    justify-content:center;
+    align-items:center;
+    
+}
+.modal-content{
+    width:500px ;
+    height: 300px;
+   background-color:#FFC15E;
+   opacity: 1;
+   border-radius:35px ;
+   text-align: center;
+   position: relative;
+   
+}
+.input{
+    
+     margin: 30px auto;
+     display: block;
+     box-sizing: border-box;
+     width: 50%;
+     padding: 8px;
+     
+     
+}
+/*popup close*/
+.close{
+    position: absolute;
+    top:0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    color:rgb(35, 35, 35);
+}
+
+.lab h1{
+    text-align: center;
+    margin: 40px 40px 40px;
+    font-size: 40px;
+}
+.lab p{
+    text-align: center;
+    margin: 40px 40px 40px;
+    line-height: 25px;
+    font-size: 20px;
+}
+.digital-lab{
+    background-image: url("digital-ai-lab_illustration_.JPG");
+    width:100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom:20px;
+
+}
+.projects{
+background-image: url("projects.jpg");
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom:20px;
+
+}
+.community{
+background-image: url("community.JPG");
+width: 100%;
+height: 100%;
+background-repeat: no-repeat;
+background-position: center;
+margin-bottom:20px;
+
+
+}
+.footer{
+background-color: #FFC15E;
+width: 100%;
+height: 300px;
+text-align: center;
+padding: 30px;
+}
+.footer-banner{
+    font-size: 27px;
+
+}
+
+.input-footer{
+    margin: 30px auto;
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+     
+}
+.powered-by{
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer p{
+    margin-top: 30px
+}
+/*hovers*/
+
+.close:hover {
+    transition:.5s;
+    color: rgb(91, 91, 91) ;
+}
+.button:hover{
+    transition: .4s;
+    color:#FFC15E;
+}
+.join-btn:hover{
+    transition: .1s;
+    background-color:#FFC15E;
+}
+.radial-gradient:hover{
+    transition: .5s;
+    color:#FFC15E;   
+}
+.blog:hover{
+    transition: .1s;
+    color:#FFC15E;
+}
+.home:hover{
+    transition: .1s;
+    color:#FFC15E;
+}
