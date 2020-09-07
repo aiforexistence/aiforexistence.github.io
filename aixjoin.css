@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:"Trebuchet MS" ;
+}
+.join-photo{
+    width: 100%;
+    height: 600px;
+    background:url("join.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 90%;
+    background-color: white;
+}
+.join-letter{
+    width: 100%;
+    font-size:170%;
+    line-height: auto;
+    color:black;
+    text-align:center;
+}
+/*nav bar*/
+
+.menu{
+    background-color:white;
+    position: fixed;
+    width: 100%;
+    height: 73px;
+    margin-top:0px;
+}
+.menu ul{
+    display: inline-flex;
+    margin: 20px;
+}
+.menu ul li{
+list-style: none;
+margin:0 20px;
+color:black;
+cursor: pointer;
+}
+.home span{
+    display: block;
+    color: black;
+
+}
+.blog span{
+    display: block;
+    color: black;
+
+}
+.join-btn{
+    top: 10px;
+    right:80px;
+    position: absolute;
+    text-decoration: none;
+    color:black;
+    border: 1.9px solid black;
+    border-radius: 20px;
+}
+.join-btn span {
+    display:block;
+    padding:8px 22px;
+    
+}
+.join-btn:hover{
+    transition: .3s;
+    background-color:black;
+    color: white;
+}
+
+.footer{
+        background-color: #FFC15E;
+        width: 100%;
+        height: 300px;
+        text-align: center;
+        padding: 30px;
+        margin-top: 30px;
+        }
+        .footer-banner{
+            font-size: 27px;
+        
+        }
+        
+        .input-footer{
+            margin: 30px auto;
+            display: block;
+            box-sizing: border-box;
+            width: 50%;
+             
+        }
+        .powered-by{
+            margin-top: 30px;
+            cursor: pointer;
+            text-decoration: none;
+            color: black;
+        }
+        .footer p{
+            margin-top: 30px;
+        }
+        .button{
+            background-color:#FFC15E ;
+            border-radius: 20px;
+            text-decoration: none;
+            padding: 10px 28px;
+            color: black;
+            margin-top: 10px;
+            display: inline-block;
+            cursor: pointer;
+            border: 1.9px solid black;
+        }
+.button:hover{
+    transition: .3s;
+    background-color:black;
+    color: white;
+}
+.button span {
+    display:block;
+    padding:8px 22px;
+}
