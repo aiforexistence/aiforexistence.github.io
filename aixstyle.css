@@ -1,52 +1,87 @@
 *{
-marigin:0;
+margin:0;
 padding:0;
 font-family:"Trebuchet MS" ;
-}
+
+}/*home page*/
 .container{
-    max-width:100%;
+    width:100%;
     height: 100%;
-    background-size:  contain;
-    background: url("aixbrainson.png") no-repeat center fixed;
-    background-position:50% 50%;
+    background-size: contain;
+    background: url("aixbrainson.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: 50% 50%;
     background-color:#04217e;
+    position: relative;
+}
+.bold{
+    font-weight:900;
+}
+.menu{
+    background-color:white ;
+    position: fixed;
+    width: 100%;
+    height: 73px;
+    
 }
 .menu ul{
     display: inline-flex;
-    margin: 50px;
+    margin: 20px;
 }
 .menu ul li{
 list-style: none;
-margin:0 20px;
-color:#FFFFFF;
+margin:0 10px;
+color:black;
 cursor: pointer;
 }
-.active{
-    color: #f2b836 !important;
+.home span{
+    display: block;
+    color: black;
+
 }
+.blog span{
+    display: block;
+    color: black;
+
+}
+.join-button{
+    left: 160px;
+    position: relative;
+    text-decoration: none;
+    color:white;
+    border: 1.9px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 28px;
+    width: fit-content;
+   background-color: none;
+}
+
+/*popup*/
 .button{
-    background-color: #426bff;
-	border-radius: 30px;
+    background-color:#FFC15E;
+	border-radius: 20px;
 	text-decoration: none;
-	padding: 10px 28px;
-	color: white;
+	padding: 9px 28px;
+	color:white;
 	margin-top: 10px;
     display: inline-block;
     cursor: pointer;
-
+    border: 1.9px solid white;
 }
 .join-btn{
-    top: 40px;
+    top: 10px;
     right:80px;
     position: absolute;
     text-decoration: none;
-    color:white;
-    border: 2px solid transparent;
+    color:black;
+    border: 1.9px solid black;
     border-radius: 20px;
-    background-image:  linear-gradient(#04217e,#04217e),radial-gradient(circle at top left, #fff,#ffffff);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-
+    background-image:  linear-gradient(#1e42c4,#426bff),
+  
+    
 }
 .join-btn span {
     display:block;
@@ -54,18 +89,20 @@ cursor: pointer;
     transition: all .4s ease;
       
 }
+/*home page lettering*/
 .banner{
     width: 80%;
     height:70%;
     top: 25%;
     left:130px;
-    position: absolute;
-    color:#ffffff;
+    position: absolute;;
+    color:white;
 
 }
 .app-text{
     width:50%;
     float:left;
+    
 }  
 .app-text h1{
     width:640px;
@@ -81,6 +118,7 @@ cursor: pointer;
     line-height: 25px;
     color:white;
    }
+   /*popup text*/
 .text-popup{
     text-shadow: 1px 1px 2px rgb(105, 105, 105);
     font-size:20px;
@@ -103,7 +141,7 @@ cursor: pointer;
 .modal-content{
     width:500px ;
     height: 300px;
-   background-color:#ca8b02;
+   background-color:#FFC15E;
    opacity: 1;
    border-radius:35px ;
    text-align: center;
@@ -112,7 +150,7 @@ cursor: pointer;
 }
 .input{
     
-     margin: 30px auto;
+     margin: 20px auto;
      display: block;
      box-sizing: border-box;
      width: 50%;
@@ -120,6 +158,10 @@ cursor: pointer;
      
      
 }
+.email{
+    margin-bottom: 10px;
+}
+/*popup close*/
 .close{
     position: absolute;
     top:0;
@@ -129,19 +171,96 @@ cursor: pointer;
     cursor: pointer;
     color:rgb(35, 35, 35);
 }
+
+.lab h1{
+    text-align: center;
+    margin: 40px 40px 40px;
+    font-size: 40px;
+}
+.lab p{
+    text-align: center;
+    margin: 40px 40px 40px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+  
+.footer{
+background-color: #FFC15E;
+width: 100%;
+height: 300px;
+text-align: center;
+padding: 30px;
+}
+.footer-banner{
+    font-size: 27px;
+
+}
+.footer-button{
+    background-color:#FFC15E;
+	border-radius: 20px;
+	text-decoration: none;
+	padding: 9px 28px;
+	color:black;
+	margin-top: 10px;
+    display: inline-block;
+    cursor: pointer;
+    border: 1.9px solid black;
+}
+
+.input-footer{
+    margin: 30px auto;
+    display: block;
+    box-sizing: border-box;
+    width: 50%;
+     
+}
+.powered{
+    margin-top: 30px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.footer p{
+    margin-top: 30px
+}
+/*hovers*/
+
 .close:hover {
     transition:.5s;
-    color: rgb(91, 91, 91) ;
+    color: rgb("91, 91, 91");
 }
 .button:hover{
     transition: .4s;
-    color:#ca8b02;
+    color:white;
+    background-color: black;
+    border-color:black;
 }
 .join-btn:hover{
-    transition: .2s;
-    color:#f2b836;
+    transition: .1s;
+    background-color:black;
+    color: white;
+}
+.join-button:hover{
+    transition: .3s;
+    background-color:black;
+    color:white;
+    border-color: black;
 }
 .radial-gradient:hover{
     transition: .5s;
-    color:#f2b836;   
+    color:#FFC15E;   
+}
+.blog:hover{
+    transition: .1s;
+    color:#FFC15E;
+}
+.home:hover{
+    transition: .1s;
+    color:#FFC15E;
+}
+.footer-button:hover{
+    transition: .3s;
+    background-color:black;
+    color:white;
+    border-color: black;
 }
