@@ -1,1 +1,1 @@
-# aiforexistence.github.io
+# https://aiforexistence.github.io
