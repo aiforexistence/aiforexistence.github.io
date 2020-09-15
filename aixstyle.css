@@ -26,7 +26,7 @@ font-family:"Trebuchet MS" ;
 }
 .menu ul{
     display: inline-flex;
-    margin: 5%;
+    margin: 50px;
 }
 .menu ul li{
 list-style: none;
