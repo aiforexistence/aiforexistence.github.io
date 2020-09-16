@@ -13,6 +13,7 @@ font-family:"Trebuchet MS" ;
     background-attachment: scroll;
     background-position: 50% 50%;
     position: relative;
+    background-color:#04217e;
 }
 .bold{
     font-weight:900;
