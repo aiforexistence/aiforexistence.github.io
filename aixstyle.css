@@ -33,6 +33,7 @@ list-style: none;
 margin:0 10px;
 color:black;
 cursor: pointer;
+left:50px;
 }
 .home span{
     display: block;
