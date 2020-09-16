@@ -15,11 +15,7 @@ font-family:"Trebuchet MS" ;
     background-color:#04217e;
     position: relative;
 }
-@media screen and (max-width: 900px) {
-    .container {
-      background:#04217e;
-    }
-  }
+  
 .bold{
     font-weight:900;
 }
