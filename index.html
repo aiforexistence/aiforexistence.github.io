@@ -12,9 +12,9 @@ AI FOR EXISTENCE
 <div class="container" >
   <div class="menu" id="header">
     <ul>
-      <li><span>AI</span><span class="bold">X</span ></li>
+        <li><span><a href="index.html">AI</span><span class="bold">X</span ></a></li>
         
-        <li class="blog"> <a href="blog2.html" ><span>Blog</span></a> </li>
+        <li class="blog"> <a href="blog2.html" target="_blank"><span>Blog</span></a> </li>
         <li><a href="#" id="join-button" class="join-btn"><span>JOIN</span></a></li>
     </ul>
   </div>
@@ -60,18 +60,81 @@ AI FOR EXISTENCE
 <div class="welcome">
  <div class="lab">
 <h1>WELCOME TO THE LAB</h1>
-<p>Our association brings people who are working in AI industry, have passion about AI, can participate in an AI <br>project together around AI-projects, worldwide (or maybe universe-wide at the future). It runs projects that provide<br>
-people convenience on routine works, establishes international cooperations to support projects which carry the same<br>
+<p>Our association brings people who are working in AI industry, have passion about AI, 
+    can participate in an AI <br>project together around AI-projects, worldwide (
+    or maybe universe-wide at the future). It runs projects that provide<br>
+people 
+    convenience on routine works, establishes international cooperations to support projects which carry the same<br>
  mentality, creates an AI-based network that people, institutions, projects, and ideas can be fed and inspires new<br>
  brains while creating awareness in the field of Artificial Intelligence with events.  
-</p>
-
-
-  
+</p>  
 </div>
 
 <!--//ai lab-->
+<!--slideshow-->
+<div class="slideshow-container">
 
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="digital-ai-lab.jpg" style="width:100%">
+    <div class="text">
+  
+  </div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="projects.JPG" style="width:100%">
+    <div class="text"></div>
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="community.JPG" style="width:100%">
+    <div class="text"></div>
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+  
+  <script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+<!--//slideshow-->
 <!--footer-->
 <div class="footer">
 <div class="footer-banner"><h1>JOIN OUR COMMUNITY</h1></div>
@@ -97,3 +160,4 @@ people convenience on routine works, establishes international cooperations to s
 <!--//footer-->
     </body>
 </html>
+
