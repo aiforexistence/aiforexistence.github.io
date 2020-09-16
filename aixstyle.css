@@ -6,7 +6,7 @@ font-family:"Trebuchet MS" ;
 }/*home page*/
 .container{
     width:100%;
-    height: 100%;
+    height: auto;
     background-size: contain;
     background-image: url('aixbrainson.png');
     background-repeat: no-repeat;
