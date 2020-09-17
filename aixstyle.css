@@ -6,8 +6,8 @@ font-family:"Trebuchet MS" ;
 }/*home page*/
 .container{
     width:100%;
-    height: auto;
-    background-size: contain;
+    height: 100%;
+    background-size: cover;
     background-image: url('aixbrainson.png');
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -28,7 +28,7 @@ font-family:"Trebuchet MS" ;
 }
 .menu ul{
     display: inline-flex;
-    margin: 0px;
+    margin-left: 10%;
 }
 .menu ul li{
 list-style: none;
