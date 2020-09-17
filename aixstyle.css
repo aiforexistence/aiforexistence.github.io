@@ -15,6 +15,7 @@ font-family:"Trebuchet MS" ;
     background-color:#04217e;
     position: relative;
     scroll-margin-top: 5rem;
+  
 }
 .bold{
     font-weight:900;
@@ -25,11 +26,11 @@ font-family:"Trebuchet MS" ;
     width: 100%;
     height: 73px;
     top:0;
+    z-index: 9;
 }
 .menu ul{
     display: inline-flex;
-    margin-left: 10%;
-    margin-top: 20px;
+    margin-left: 20%;
     
 }
 .menu ul li{
@@ -37,7 +38,8 @@ list-style: none;
 margin:0 10px;
 color:black;
 cursor: pointer;
-
+font-size: larger;
+margin-top: 20%;
 }
 .home span{
     display: block;
@@ -77,8 +79,8 @@ cursor: pointer;
     border: 1.9px solid white;
 }
 .join-btn{
-    top: 10px;
-    right:80px;
+    top: 20%;
+    right:20%;
     position: absolute;
     text-decoration: none;
     color:black;
@@ -154,19 +156,7 @@ cursor: pointer;
    position: relative;
    
 }
-.input{
-    
-     margin: 20px auto;
-     display: block;
-     box-sizing: border-box;
-     width: 50%;
-     padding: 8px;
-     
-     
-}
-.email{
-    margin-bottom: 10px;
-}
+
 /*popup close*/
 .close{
     position: absolute;
@@ -199,6 +189,7 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
+  background-attachment: scroll;
 }
 
 /* Next & previous buttons */
@@ -288,14 +279,7 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
-  @media only screen and (min-width:1069px){
-      .container{background-size: contain;
-    
-    width:100% ;
-    background-position: center;
-    
-}
-  }
+ 
 
 .footer{
 background-color: #FFC15E;
@@ -378,3 +362,7 @@ text-decoration: none;
     color:white;
     border-color: black;
 }
+
+a:visited {
+    color: inherit;
+  }
