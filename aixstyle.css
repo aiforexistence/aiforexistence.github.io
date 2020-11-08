@@ -13,6 +13,11 @@ width: device-width ;
         width: 320px;
     }
 }
+@media screen and (orientation:portrait) {
+    .menu{
+        width: 320px;
+    }
+  }
 /*home page*/
 
 .container{
