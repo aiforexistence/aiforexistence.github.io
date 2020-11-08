@@ -6,7 +6,12 @@ font-family:"Trebuchet MS" ;
 }
 @viewport{
 width: device-width ;
+}
 
+@media screen and (max-width:320px){
+    .menu ul{
+        width: 320px;
+    }
 }
 /*home page*/
 
